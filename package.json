@@ -1,0 +1,31 @@
+{
+  "name": "dom-create-element",
+  "version": "1.0.0",
+  "description": "Create DOM elements.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Baptiste Briel",
+    "email": "b.briel@suspended-animations.com",
+    "url": "https://github.com/BaptisteBriel"
+  },
+  "dependencies": {
+    "dom-css": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "keywords": [
+    "dom",
+    "element",
+    "create",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BaptisteBriel/dom-create-element.git"
+  },
+  "homepage": "https://github.com/BaptisteBriel/dom-create-element",
+  "bugs": {
+    "url": "https://github.com/BaptisteBriel/dom-create-element/issues"
+  }
+}
