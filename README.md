@@ -6,7 +6,7 @@ Create DOM elements.
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/dom-create-element.png)](https://www.npmjs.com/package/dom-create-element)
+`npm install dom-create-element`
 
 ```javascript
 var create = require('dom-create-element');
