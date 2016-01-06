@@ -1,9 +1,6 @@
 /*
-dom-create-element
-*/
-var css = require('dom-css');
+`dom-create-element`
 
-/*
 var create = require('dom-create-element');
 
 var el = create({
@@ -28,13 +25,13 @@ function create(opt) {
 		el.href = opt.link,
 		opt.target && el.setAttribute("target", opt.target)
 	);
-
+	
 	"img" == opt.selector && opt.src && (
 		el.src = opt.src,
 		opt.lazyload && (
-			css(el, 'opacity', '0'),
+			el.style.opacity = 0;
 			el.onload = function(){
-				css(el, 'opacity', '1');
+				el.style.opacity = 1;
 			}
 		)
 	);
@@ -43,9 +40,7 @@ function create(opt) {
 	opt.styles && (el.className = opt.styles);
 
 	opt.html && (el.innerHTML = opt.html);
-
 	opt.children && (el.appendChild(opt.children));
 	
 	return el;
-
 };

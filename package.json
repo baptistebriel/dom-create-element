@@ -1,6 +1,6 @@
 {
   "name": "dom-create-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create DOM elements.",
   "main": "index.js",
   "license": "MIT",
@@ -9,9 +9,7 @@
     "email": "b.briel@suspended-animations.com",
     "url": "https://github.com/BaptisteBriel"
   },
-  "dependencies": {
-    "dom-css": "^1.1.2"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {},
   "keywords": [
