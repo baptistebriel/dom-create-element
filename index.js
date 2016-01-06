@@ -25,11 +25,11 @@ function create(opt) {
 		el.href = opt.link,
 		opt.target && el.setAttribute("target", opt.target)
 	);
-	
+
 	"img" == opt.selector && opt.src && (
 		el.src = opt.src,
 		opt.lazyload && (
-			el.style.opacity = 0;
+			el.style.opacity = 0,
 			el.onload = function(){
 				el.style.opacity = 1;
 			}
