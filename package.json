@@ -1,8 +1,9 @@
 {
   "name": "dom-create-element",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create DOM elements.",
   "main": "index.js",
+  "types": "./types.d.ts",
   "license": "MIT",
   "author": {
     "name": "Baptiste Briel",
